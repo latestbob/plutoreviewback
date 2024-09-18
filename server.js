@@ -38,7 +38,7 @@ app.post('/api/send', async (req, res) => {
 
   let mailOptions = {
     from: 'info@plutobeautysupplies.com',
-    to: 'edidongbobson@gmail.com',
+    to: 'edidiongbobson@gmail.com',
     subject: "New Pluto Review Submitted",
     html: `
       <div style="max-width: 600px; margin: 0 auto; background-color: #fff; padding: 24px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
